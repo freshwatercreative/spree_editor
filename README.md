@@ -6,7 +6,6 @@
 This extension provides an inline rich-text editor for Spree. It implements different types of editors:
 
 - [CKEditor][1]
-- [TinyMCE][2]
 
 ## Installation
 
@@ -43,15 +42,8 @@ SpreeEditor::Config.tap do |config|
 end
 ```
 
-## Language-Support
 
-To obtain support for multiple languages with TinyMCE add tinymce-rails-langs to your Gemfile:
 
-```ruby
-gem 'tinymce-rails-langs'
-```
-
-TinyMCE will not be loaded unless it finds a language package matching your `Spree::Config.default_locale`.
 
 ## Contributing
 
@@ -83,7 +75,6 @@ Starting point:
 Copyright (c) 2014 [divineforest][5] and other [contributors][6], released under the [New BSD License][7]
 
 [1]: http://ckeditor.com
-[2]: http://www.tinymce.com
 [3]: http://www.fsf.org/licensing/essays/free-sw.html
 [4]: https://github.com/spree-contrib/spree_editor/issues
 [5]: https://github.com/divineforest
