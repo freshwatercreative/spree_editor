@@ -43,16 +43,6 @@ SpreeEditor::Config.tap do |config|
 end
 ```
 
-## Language-Support
-
-To obtain support for multiple languages with TinyMCE add tinymce-rails-langs to your Gemfile:
-
-```ruby
-gem 'tinymce-rails-langs'
-```
-
-TinyMCE will not be loaded unless it finds a language package matching your `Spree::Config.default_locale`.
-
 ## Contributing
 
 In the spirit of [free software][3], **everyone** is encouraged to help improve this project.
@@ -83,7 +73,6 @@ Starting point:
 Copyright (c) 2014 [divineforest][5] and other [contributors][6], released under the [New BSD License][7]
 
 [1]: http://ckeditor.com
-[2]: http://www.tinymce.com
 [3]: http://www.fsf.org/licensing/essays/free-sw.html
 [4]: https://github.com/sttermo/spree_editor/issues
 [5]: https://github.com/divineforest
